@@ -180,7 +180,7 @@ if __name__=='__main__':
     named_conf_buff=""
     
     if not os.path.isdir(outdir):
-        stderr("%s is not a directory")
+        stderr("%s is not a directory"%outdir)
         sys.exit(1)
     
     for apikey in apikeys.split(','):
