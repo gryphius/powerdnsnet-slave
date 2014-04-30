@@ -20,7 +20,7 @@ class Record(object):
         self.priority=None
         
     def __repr__(self):
-        return "<Record name='%s' type='%s' content='%s' ttl='%s'"%(self.name,self.type,self.content,self.ttl)
+        return "<Record id='%s' name='%s' type='%s' content='%s' ttl='%s'"%(self.id, self.name,self.type,self.content,self.ttl)
 
 def stderr(msg):
     sys.stderr.write(msg+"\n")
